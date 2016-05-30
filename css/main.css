@@ -1,0 +1,218 @@
+body{
+  background:white;
+  font-family: sans-serif;
+  font-size: 15;
+  color: black;
+    
+}
+
+div#content{
+    margin:0 auto;
+    padding:0 0;
+    width:960px; 
+}
+
+div#content>header{
+   width:100%;
+   height:100px;
+   background: orange;
+}
+
+div#content>nav{
+    width:100%;
+    margin: 0 0 5px 0;
+    background: #101112;
+    padding:5px 0;
+    height: 20px;
+}
+
+nav>ul{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+nav>ul>li {
+    display: inline;   
+    margin: 0px 0px;
+    padding:0px 0px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: azure;
+    padding:6px 15px;
+    width: 0px;
+    height: 0px;
+}
+
+nav>ul>li>a:hover{
+    background-color:#352EBF; 
+    padding:6px 15px;
+    width: 0px;
+    height: 0px;
+
+}
+
+div#content>section{
+    width:68%;
+    padding: 0 5px;
+    min-height:540px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+section h1{
+    font-family: fantasy;
+    font-size:25px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 15px;
+}
+
+div#content>section.breaking{
+    float: left;
+}
+
+div#content>section.recientes{
+    clear: left;
+}
+
+div#content>section.details{
+    float: left;
+}
+
+div#content>section.details>article{
+    width:100%;
+    float: left;
+    margin:0px 10px 10px 0px;
+}
+
+div#content>section.breaking>article{
+    width:48%;
+    float: left;
+    margin:0px 10px 10px 0px;
+}
+
+div#content>section.recientes>article{
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom: 10px;
+}
+
+article>header{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+article>p{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+article>p>a{
+    text-decoration: underline;
+    color:blue;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+
+div#content>aside{
+ width:30%; 
+ min-height:700px;
+ overflow: hidden;
+ float: right;
+}
+
+div#content>aside h1{
+    font-family: fantasy;
+    font-weight: normal;
+    font-size:25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+div#content>aside>article{
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom: 10px;
+}
+
+form{
+    
+}
+
+div#content>footer{
+   width:100%;
+   height:100px;
+   border:2px 0px 0px 0px solid red;
+   background: black;
+   color: white;
+   padding:0px 0px 0px 0px;
+   clear: left;
+}
+
+div#content>footer>p{
+    float: left;
+}
+
+div#content>footer>p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+div#content>footer>p>a{
+    margin:10px 5px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer>ul
+{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+footer>ul>li
+{
+ display: inline;
+ background: none;  
+ border-left: 1px solid white;
+    margin: 0px 0px;
+    padding:0px 0px;
+}
+
+footer>ul>li>a
+{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding:6px 15px;
+    width: 0px;
+    height: 0px;
+}
+
+footer>ul>li>a:hover
+{
+ background: none;   
+}
