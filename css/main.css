@@ -20,48 +20,46 @@ div#content>header{
 
 div#content>nav{
     width:100%;
-    margin: 0 0 5px 0;
     background: #101112;
-    padding:5px 0;
-    height: 20px;
-}
-
-nav>ul{
-    margin: 0 0;
-    padding: 0 0;
-}
-
-nav>ul>li {
-    display: inline;   
-    margin: 0px 0px;
+    margin: 0 0 5px 0;
     padding:0px 0px;
 }
 
+nav>ul{
+    margin:0px;
+    padding:0px;
+}
+
+nav>ul>li{
+    display:inline-block;   
+    margin:0px;
+    padding:0px 0px;
+    height:30px;
+}
+
 nav>ul>li>a{
+    display:inline-block;
     text-decoration: none;
     text-align: center;
     font-family: sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: azure;
-    padding:6px 15px;
-    width: 0px;
-    height: 0px;
+    padding:5px 15px;
+    margin:0px;
+    width: 80px;
+    height: 20px;
 }
 
 nav>ul>li>a:hover{
     background-color:#352EBF; 
-    padding:6px 15px;
-    width: 0px;
-    height: 0px;
-
 }
 
 div#content>section{
     width:68%;
     padding: 0 5px;
     min-height:540px;
-    margin-top: 20px;
+    margin:0px 0px;
     overflow: hidden;
 }
 
@@ -108,7 +106,9 @@ article>header{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 2px;
+    padding: 0px;
+    margin:0px 0px 2px 0px;
+    min-height: 10px;
 }
 
 article>p{
@@ -116,7 +116,10 @@ article>p{
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
-    margin-bottom: 5px;
+    min-height: 50px;
+    margin:0px 0px 2px 0px;
+    padding:0px;
+    display: inline-block;
 }
 
 article>p>a{
