@@ -18,6 +18,16 @@ div#content>header{
    background: orange;
 }
 
+div#content>header>figure{
+    margin:0px 15px 0px 0px;
+    height: inherit;
+}
+
+div#content>header>figure>a>img
+{
+    margin:0px 20px;
+}
+
 div#content>nav{
     width:100%;
     background: #101112;
@@ -64,9 +74,9 @@ div#content>section{
 }
 
 section h1{
-    font-family: fantasy;
+    font-family: arial;
     font-size:25px;
-    font-weight: normal;
+    font-weight: bold;
     color: black;
     margin-bottom: 15px;
 }
@@ -139,8 +149,8 @@ div#content>aside{
 }
 
 div#content>aside h1{
-    font-family: fantasy;
-    font-weight: normal;
+    font-family: arial;
+    font-weight: bold;
     font-size:25px;
     margin-bottom: 15px;
     margin-top: 20px;
@@ -172,12 +182,12 @@ div#content>footer>p{
 }
 
 div#content>footer>p{
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 8px;
+    margin-left: 5px;
 }
 
 div#content>footer>p>a{
-    margin:10px 5px;
+    margin:0px 0px;
     color: white;
     text-decoration: none;
     font-family: sans-serif;
@@ -185,16 +195,14 @@ div#content>footer>p>a{
     font-weight: bold;
 }
 
-footer>ul
-{
+footer>ul{
     display: inline;
     float: right;
-    margin-top: 20px;
+    margin-top: 18px;
     margin-right: 10px;
 }
 
-footer>ul>li
-{
+footer>ul>li{
  display: inline;
  background: none;  
  border-left: 1px solid white;
@@ -202,10 +210,9 @@ footer>ul>li
     padding:0px 0px;
 }
 
-footer>ul>li>a
-{
+footer>ul>li>a{
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -215,7 +222,6 @@ footer>ul>li>a
     height: 0px;
 }
 
-footer>ul>li>a:hover
-{
+footer>ul>li>a:hover{
  background: none;   
 }
