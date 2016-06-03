@@ -100,9 +100,9 @@ div#content>section.details>article{
 }
 
 div#content>section.breaking>article{
-    width:48%;
-    float: left;
-    margin:0px 10px 10px 0px;
+    /*width:48%;
+    float: left;*/
+    margin:0px 10px 20px 0px;
 }
 
 div#content>section.recientes>article{
@@ -111,6 +111,76 @@ div#content>section.recientes>article{
     margin-right:5px;
     margin-bottom: 10px;
 }
+
+
+article>div.titulo>h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px;
+    margin:0px 0px 5px 0px;
+    min-height: 10px;
+}
+
+article>div.descripcion
+{
+    display: inline-block;
+}
+
+article>div.descripcion>figure.imagen
+{
+    width:170px;
+    height:90px;
+    display: inline-block;
+    float: left;
+    margin:0px 2px 0px 2px;
+}
+
+article>div.descripcion>figure.imagen>img
+{
+    display: inline-block;
+    float: left;
+    width: inherit;
+    height: inherit;
+}
+
+article>div.descripcion>div.detalles
+{
+    display: inline-block;
+    width: 72%;
+    float: right;
+}
+
+
+article>div.descripcion>div.detalles>p{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+    min-height: 50px;
+    margin:0px 0px 2px 0px;
+    padding:0px;
+    display: inline-block;
+}
+
+article>div.descripcion>div.detalles>a{
+    text-decoration: underline;
+    color:blue;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+
+article>div.descripcion>div.detalles>p>span{
+    font-size: .70em;
+    line-height: 164%;
+    margin-top: 5px;
+    margin-left:10px;
+    color: #878787;
+}
+
+
 
 article>header{
     font-family: sans-serif;
@@ -140,6 +210,17 @@ article>p>a{
     font-size: 15px;
     text-align: justify;
 }
+
+article>p>span{
+    font-size: .70em;
+    line-height: 164%;
+    margin-top: 5px;
+    margin-left:10px;
+    color: #878787;
+}
+
+
+
 
 div#content>aside{
  width:30%; 
