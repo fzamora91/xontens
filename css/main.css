@@ -2,8 +2,7 @@ body{
   background:white;
   font-family: sans-serif;
   font-size: 15;
-  color: black;
-    
+  color: black;   
 }
 
 div#content{
@@ -73,7 +72,7 @@ div#content>section{
     overflow: hidden;
 }
 
-section h1{
+section h2{
     font-family: arial;
     font-size:25px;
     font-weight: bold;
@@ -113,7 +112,7 @@ div#content>section.recientes>article{
 }
 
 
-article>div.titulo>h1{
+article>div.titulo>h3{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -182,7 +181,7 @@ article>div.descripcion>div.detalles>p>span{
 
 
 
-article>header{
+article>h3{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -213,7 +212,7 @@ article>p>a{
 
 article>p>span{
     font-size: .70em;
-    line-height: 164%;
+    line-height: 16%;
     margin-top: 5px;
     margin-left:10px;
     color: #878787;
@@ -229,7 +228,7 @@ div#content>aside{
  float: right;
 }
 
-div#content>aside h1{
+div#content>aside h2{
     font-family: arial;
     font-weight: bold;
     font-size:25px;
